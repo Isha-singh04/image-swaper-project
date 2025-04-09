@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  html,
+  body {
+    height: 100%;
+    width: 100%;
+  }
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f6d365 0%, #fda085 100%);
+  }
+  
+  .img-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .img-container img {
+    width: 100px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 20px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.5s ease;
+    cursor: pointer;
+  }
+  
+  /* Image Hover Effect */
+  .img-container img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+  
+  #one {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #two {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #three {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #four {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #five {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #six {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #seven {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #eight {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #nine {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  #ten {
+    height: 300px;
+    width: 200px;
+    padding-top: 3rem;
+    margin-left: 3rem;
+  }
+  
+  button {
+    display: block;
+    margin: 20px auto;
+    padding: 12px 24px;
+    background-color: green;
+    background: linear-gradient(to right, #00b09b, #96c93d);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s eas
+  }
+  
+  button:hover {
+    background-color: darkgreen;
+    transform: scale(1.05);
+  }
+  
